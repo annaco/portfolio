@@ -1,0 +1,270 @@
+body {
+ background: $background;
+ font-size: 16px;
+ 
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px 5px;
+    font-family: 'Roboto', sans-serif;
+
+  .wrapper-title {
+    font-size: 22px;
+    text-align: center;
+    padding: 50px;
+  }
+}
+
+.educations {
+  margin: 1vw 18vw;
+  padding: 30px 0;
+  
+  .educations_school {
+    font-size: 2vw;
+    text-align: center;
+    padding: 0px 0 20px 0;
+  }
+  .educations_education {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0 20px 0;
+  }
+
+  .educations_description {
+
+  }
+}
+
+.work {
+  margin: 1vw 18vw;
+  padding: 30px 0;
+ 
+  .work-title {
+    text-align: center;
+    padding: 0px 0 20px 0;
+  }
+
+  .work-business {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0 20px 0;
+  }
+
+  .work-description {
+    font-weight: thin;
+  }
+
+  .title {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+
+    .title_name {
+      font-size: 24px;
+      font-family: $title;
+      font-weight: bold;
+    }
+    .title_text {
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }   
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+      text-align: right;
+
+    .socials_profiles {
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+nav {
+ font-size: 14px;
+ 
+
+  ul {
+    text-align: center;
+    
+    li {
+       display: inline;
+       padding:5px;
+       color: $black;
+      
+       a {
+        text-decoration: none;
+    
+        a:active {
+          border-bottom: red;
+          font-weight: bold;
+        }
+
+        a:visited {
+          border-bottom: green;
+        }
+
+       }
+
+    }
+  }
+
+
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+   text-align: center;
+   margin: 30px;
+
+  .portfolio_name{
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .portfolio_title {
+    font-size: 28px;
+  }
+
+  .portfolio_portfolio {
+    font-size: 36px;
+   
+  }
+}
+
+.project {
+  width: 700px;
+  height: 300px;
+  margin: 30px 0;
+  transform: translateY(-50px);
+  left: 50%;
+
+  .project-name {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+  
+  }
+
+  .project-box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+    .project-left {
+      width: 50%;
+      padding: 40px;
+      
+         
+       .project-image {
+        width: 300px;
+        height: auto;
+      }
+    }
+
+    .project-right {
+      width: 50%;
+      padding: 20px;
+
+      .project-image {
+        width: 300px;
+        height: auto;
+      }
+
+      .project-description {
+
+        .project-technics {
+
+          .project-technics__technic {
+            padding: 5px 10px;
+            
+          }
+        }
+      }
+    }
+  }
+
+  
+}
+
+
+.knowledge {
+  margin: 1vw 18vw;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+
+  .knowledge-technic {
+    margin-right: 30px;
+    
+  }
+
+  .knowledge-form {
+    margin-left: 60px;
+  }
+}
+
+
+
+.about {
+   margin: 1vw 18vw;
+  padding: 30px 0;
+
+  .about-me {
+
+  }
+
+  .about-want {
+
+  }
+
+  .about-like {
+    
+  }
+}
+
+
+.footer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+  
+  .footer_name {
+    padding:20px; 
+  }
+
+  .footer_phone {
+     padding:20px; 
+  }
+
+  .footer_email {
+     padding:20px; 
+  }
+}

@@ -1,0 +1,180 @@
+body {
+  background: $background;
+  font-size: 16px;
+   
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+   margin: 10px 5px;
+
+  .wrapper-title {
+    font-size: 22px;
+    text-align: center;
+    padding: 50px;
+  }
+}
+
+.educations {
+  margin: 20px 40px;
+  
+  .educations_school {
+    font-size: 16px;
+  }
+  .educations_education {
+    font-size: 14px;
+  }
+}
+
+.work {
+  margin: 30px;
+
+  .title {
+    font-size: 22px;
+    color: red;
+    text-align: center;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+
+    .title_name {
+      font-size: 18px;
+      font-family: $title;
+      font-weight: bold;
+    }
+    .title_text {
+      font-size: 14px;
+    }
+
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }   
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+
+    .socials_profiles {
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+nav {
+ font-size: 14px;
+
+  ul {
+    text-align: center;
+    
+    li {
+       display: inline;
+       padding: 5px;
+       color: $black;
+      
+       a {
+       text-decoration: none;
+    
+       a:active {
+         border-bottom: red;
+         font-weight: bold;
+       }
+
+       a:visited {
+        border-bottom: green;
+       }
+
+       }
+
+    }
+  }
+
+
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+   text-align: center;
+   margin: 30px;
+
+  .portfolio_name{
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .portfolio_title {
+    font-size: 20px;
+  }
+
+  .portfolio_portfolio {
+    font-size: 24px;
+   
+  }
+}
+
+
+.knowledge {
+  display: flex;
+  flex-direction: column;
+
+  .knowledge-technic {
+    
+  }
+
+  .knowledge-form {
+
+  }
+}
+
+.about {
+   margin: 1vw 18vw;
+  padding: 30px 0;
+
+  .about-me {
+
+  }
+
+  .about-want {
+
+  }
+
+  .about-like {
+    
+  }
+}
+
+
+.footer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+  
+  .footer_name {
+    padding:20px; 
+  }
+
+  .footer_phone {
+     padding:20px; 
+  }
+
+  .footer_email {
+     padding:20px; 
+  }
+}

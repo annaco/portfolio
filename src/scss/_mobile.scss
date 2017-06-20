@@ -1,3 +1,8 @@
+* {
+	padding:0px;
+	margin: 0px;
+}
+
 body {
   background: $background;
   font-size: 16px;
@@ -7,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-   margin: 10px 5px;
+  margin: 10px 5px;
 
   .wrapper-title {
     font-size: 22px;
@@ -27,12 +32,30 @@ body {
   }
 }
 
+
 .work {
-  margin: 30px;
+  margin: 1vw 18vw;
+  padding: 30px 0;
+ 
+  .work-title {
+    text-align: center;
+    padding: 0px 0 20px 0;
+    font-weight: bold;
+  }
+
+  .work-business {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0 20px 0;
+  }
+
+  .work-description {
+    font-weight: thin;
+  }
 
   .title {
     font-size: 22px;
-    color: red;
     text-align: center;
   }
 }
@@ -40,6 +63,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  
 
   .title {
     display: flex;
@@ -61,6 +85,10 @@ header {
     }
   }   
 
+  .middlePart {
+    flex: 1;
+  }
+
   .socials {
     display: flex;
     flex-direction: row;
@@ -75,42 +103,54 @@ header {
     }
   }
 }
-nav {
- font-size: 14px;
 
-  ul {
-    text-align: center;
-    
-    li {
-       display: inline;
-       padding: 5px;
-       color: $black;
-      
-       a {
-       text-decoration: none;
-    
-       a:active {
-         border-bottom: red;
-         font-weight: bold;
-       }
 
-       a:visited {
-        border-bottom: green;
-       }
+ul {
+	list-style:none;
+	width:100%;
 
-       }
 
-    }
+  li {
+    display: inline;
+    width: 100%;
+    border-bottom: 1px solid #666;
   }
 
+  li a {
+    display: block;
+    line-height: 70px;
+    font-family: sans-serif;
+  
+  }
 
+  a {
+    text-decoration:none;
+   }
 }
+
+#i-nav {
+	position:absolute;
+	top:38px;
+	right:20px;
+	width:44px;
+	height:44px;
+}
+
+.open {
+	background: red !important;
+}
+
+.show {
+	display: block;
+}
+
+
 
 .portfolio {
   display: flex;
   flex-direction: column;
-   text-align: center;
-   margin: 30px;
+  text-align: center;
+  margin: 30px;
 
   .portfolio_name{
     font-size: 20px;
@@ -127,17 +167,83 @@ nav {
   }
 }
 
+.project {
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;  
+  margin-bottom: 2vw;
+
+  .project-name {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+  
+  }
+
+  .project-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    .project-left {
+      width: 100%;
+           
+         
+       .project-image {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 20px;
+       }
+
+       .project-description {
+          padding: 40px;
+
+        .project-technics {
+
+          .project-technics__technic {
+            padding: 5px 10px;
+            
+          }
+        }
+      }
+    }
+
+    .project-right {
+      width: 100%;
+     
+      .project-image {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 20px;
+       }
+
+      .project-description {
+        padding: 0 40px 0 40px;
+
+        .project-technics {
+
+          .project-technics__technic {
+            padding: 5px 10px;
+            
+          }
+        }
+      }
+    }
+  }
+
+  
+}
 
 .knowledge {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   .knowledge-technic {
-    
+    width: 50%;
   }
 
   .knowledge-form {
-
+    width: 50%;
   }
 }
 
@@ -162,19 +268,19 @@ nav {
 .footer {
   font-size: 12px;
   display: flex;
-  flex-direction: row;
-  padding: 20px;
-  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
   
   .footer_name {
-    padding:20px; 
+    padding:5px; 
   }
 
   .footer_phone {
-     padding:20px; 
+     padding:5px; 
   }
 
   .footer_email {
-     padding:20px; 
+     padding:5px; 
   }
 }

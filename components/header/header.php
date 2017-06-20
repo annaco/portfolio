@@ -5,6 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
  
@@ -18,5 +19,6 @@
       <div class="socials_profiles"><a href="https://www.linkedin.com/in/anna-conradson-sj%C3%B6berg-04864726/"  target="_blank"><img src="image/linkedin-logo.png" alt="Länk till min LinkedIn profil"></a></div>
       <div class="socials_profiles"><a href="https://github.com/annaco"  target="_blank"><img src="image/github.png" alt="Länk till min github"></a></div>
     </div>  
-  </header>
+
+     </header>
    <div class="wrapper">

@@ -3,22 +3,12 @@ var technics = ["HTML5","CSS3","SQL","javaScript","jQuery","MySQL","PHP","SASS",
 
 
 $('document').ready(function() {
-   console.log('funkar');
+  
+   //Hamburger meny, funkar ej
+	$('#i-nav').click(function(){
 
-   $('.menyLink').click(function(){
-     event.preventDefault();
-       $('this').css('color', 'green');
+		$(this).toggleClass('open');
+		$('ul').toggleClass('show');
+	});
 
-   });
-
-$('fade-left').hide();
-
-
-  $('fade-right').hide();
-
-
-});
-
-
-
- 
+}); 

@@ -19,16 +19,26 @@
     </div>
     <div class="project-right project-text fade-left">
       <div class="project-description">
-        Ett grupparbete vi gjorde i kursen javascript.
-        Vi skulle skapa ett spel och då valde vi att göra detta barnspel.
-        <div class="project-technics">
-          <div class="project-technics__technic"> jQuery</div>
-          <div class="project-technics__technic"> HTML</div>
-          <div class="project-technics__technic"> CSS</div>
+        <div class="project-description__generally">
+            Ett grupparbete vi gjorde i kursen javascript.
         </div>
+        <div class="project-description__description">
+            Vi skulle skapa ett spel och då valde vi att göra detta barnspel som 
+            går ut på att man ska dra ingredienserna som behövs för att göra 
+            pannkakor till bunken och sedan släppa dem där.
+        </div>  
       </div>
     </div>
   </div>
+  <div class="project-subheading">
+    Tekniker
+  </div>  
+  <div class="project-technics">
+    <div class="project-technics__technic jquery"> jQuery</div>
+    <div class="project-technics__technic html"> HTML</div>
+    <div class="project-technics__techni css"> CSS</div>
+    <div class="project-technics__technic responsive"> Responsiv</div>
+ </div>
 </div> 
 
 
@@ -44,17 +54,26 @@
     </div>
     <div class="project-right project-text fade-left">
        <div class="project-description">
-          Mitt exjobb som jag nu håller på att utveckla. 
-          <div class="project-technics">
-              <div class="project-technics__technic"> PHP</div>
-              <div class="project-technics__technic"> jQuery</div>
-              <div class="project-technics__technic"> HTML</div>
-              <div class="project-technics__technic"> CSS</div>
-              <div class="project-technics__technic"> MySQL</div>
-              <div class="project-technics__technic"> SQL</div>
-            </div>
-        </div>    
+          <div class="project-description__generally">
+           Mitt exjobb som jag nu håller på att utveckla. 
+          </div>
+          <div class="project-description__description">
+           En trädgårdssida för trädgårdsamatörer.
+          </div>
+       </div>    
     </div>
+  </div>
+   <div class="project-subheading">
+    Tekniker
+  </div> 
+  <div class="project-technics">
+    <div class="project-technics__technic php"> PHP</div>
+    <div class="project-technics__technic jquery"> jQuery</div>
+    <div class="project-technics__technic html"> HTML</div>
+    <div class="project-technics__technic css"> CSS</div>
+    <div class="project-technics__technic mysql"> MySQL</div>
+    <div class="project-technics__technic sql"> SQL</div>
+    <div class="project-technics__technic responsive"> Responsiv</div>
   </div>
 </div>
 
@@ -63,24 +82,35 @@
     Webbloppis
    </div>
    <div class="project-box">
-       <div class="project-right">
+       <div class="project-left">
          <a href="../Medieinstitutet/php/Loppis/index.php"  target="_blank">
            <img class="project-image" src="image/webbloppis.png" alt="Webbloppis">
          </a>
        </div>  
-       <div class="project-left project-text">
+       <div class="project-right project-text">
           <div class="project-description">
-            Ett grupparbete i php-kursen. Vi skulle göra en sida som vi sedan skulle kunna tjäna pengar på. 
-            Vi valde att göra en loppmarknad.
-            <div class="project-technics">
-              <div class="project-technics__technic"> PHP</div>
-              <div class="project-technics__technic"> HTML</div>
-              <div class="project-technics__technic"> CSS</div>
-              <div class="project-technics__technic"> MySQL</div>
-              <div class="project-technics__technic"> SQL</div>
+            <div class="project-description__generally">
+             Ett grupparbete i php-kursen.
             </div>
-          </div>  
+            <div class="project-description__description">
+              Vi skulle göra en sida som vi sedan skulle kunna tjäna pengar på. <br>
+              Vi valde att göra en loppmarknad.
+            </div>
+          </div>
        </div>  
+     </div>    
+       <div class="project-subheading">
+        Tekniker
+       </div>  
+       <div class="project-technics">
+         <div class="project-technics__technic php"> PHP</div>
+         <div class="project-technics__technic html"> HTML</div>
+         <div class="project-technics__technic css"> CSS</div>
+         <div class="project-technics__technic mysql"> MySQL</div>
+         <div class="project-technics__technic sql"> SQL</div>
+         <div class="project-technics__technic responsive"> Responsiv</div>
+       </div>
+     </div>  
      </div>  
   </div>  
 

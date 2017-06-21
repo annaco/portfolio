@@ -198,13 +198,15 @@ nav {
 
       .project-description {
 
-        .project-technics {
+         .project-description__generally {
 
-          .project-technics__technic {
-            padding: 5px 10px;
-            
-          }
-        }
+         }
+          
+         .project-description__description {
+
+         }
+
+        
       }
     }
 
@@ -219,17 +221,28 @@ nav {
 
       .project-description {
 
-        .project-technics {
-
-          .project-technics__technic {
-            padding: 5px 10px;
-            
-          }
-        }
+        
       }
     }
   }
 
+  .project-subheading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+          
+  .project-technics {
+    padding-top: 2vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+      
+    .project-technics__technic {
+       padding:5px 10px;
+    }
+  }  
   
 }
 
@@ -239,6 +252,9 @@ nav {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
+   position: relative;
+  transform: translateX(-50%);
+  left: 50%;
 
   .knowledge-technic {
     

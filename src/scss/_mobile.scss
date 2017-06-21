@@ -24,14 +24,19 @@ body {
 .educations {
   margin: 20px 40px;
   
-  .educations_school {
-    font-size: 16px;
-  }
   .educations_education {
-    font-size: 14px;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .educations_school {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2vw;
   }
 }
-
 
 .work {
   margin: 1vw 18vw;
@@ -171,19 +176,21 @@ ul {
   position: relative;
   transform: translateX(-50%);
   left: 50%;  
-  margin-bottom: 2vw;
+  margin-bottom: 6vw;
 
   .project-name {
     font-size: 22px;
     padding: 10px;
     text-align: center;
+    font-weight: bold;
   
   }
 
   .project-box {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    padding-bottom: 1vw;
+     
 
     .project-left {
       width: 100%;
@@ -193,20 +200,27 @@ ul {
         width: 80vw;
         height: auto;
         margin-bottom: 20px;
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;  
        }
 
        .project-description {
           padding: 40px;
 
-        .project-technics {
+           .project-description__generally {
 
-          .project-technics__technic {
-            padding: 5px 10px;
-            
-          }
+         }
+          
+         .project-description__description {
+
+         }
+
+       
         }
       }
-    }
+
+     }
 
     .project-right {
       width: 100%;
@@ -230,13 +244,32 @@ ul {
       }
     }
   }
+  
+  .project-subheading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+ }
 
+          
+  .project-technics {
+    padding-top: 2vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+      
+    .project-technics__technic {
+       padding:5px 10px;
+    }
   
 }
 
 .knowledge {
   display: flex;
   flex-direction: row;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
 
   .knowledge-technic {
     width: 50%;

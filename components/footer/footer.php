@@ -1,5 +1,4 @@
-
-   </div>
+</div>
   <div class="footer">
     <div class="footer_name">Anna Conradson Sjöberg</div> 
     <div class="footer_phone">0732420632</div> 

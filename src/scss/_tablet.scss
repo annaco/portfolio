@@ -188,7 +188,7 @@ nav {
 
     .project-left {
       width: 50%;
-      padding: 40px;
+      padding: 2vw;
       
          
        .project-image {
@@ -197,9 +197,9 @@ nav {
       }
 
       .project-description {
-
+            line-height: 15px;
          .project-description__generally {
-
+            padding-top: 5px; 
          }
           
          .project-description__description {
@@ -212,7 +212,7 @@ nav {
 
     .project-right {
       width: 50%;
-      padding: 20px;
+      padding: 2vw;
 
       .project-image {
         width: 40vw;
@@ -220,8 +220,15 @@ nav {
       }
 
       .project-description {
-
+        line-height: 15px;
         
+        .project-description__generally {
+            padding-top: 5px; 
+         }
+          
+         .project-description__description {
+
+         }
       }
     }
   }
@@ -252,7 +259,7 @@ nav {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
-   position: relative;
+  position: relative;
   transform: translateX(-50%);
   left: 50%;
 
@@ -268,19 +275,28 @@ nav {
 
 
 .about {
-   margin: 1vw 18vw;
+  margin: 1vw 8vw;
   padding: 30px 0;
 
+  img {
+    position: relative;
+    border-radius: 35%;
+    transform: translateX(-50%);
+    left: 50%;
+
+  }
+
   .about-me {
+    margin: 2vw 10vw;
 
   }
 
   .about-want {
-
+    margin: 2vw 10vw;
   }
 
   .about-like {
-    
+    margin: 2vw 10vw;
   }
 }
 

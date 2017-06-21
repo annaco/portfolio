@@ -36,7 +36,7 @@
   <div class="project-technics">
     <div class="project-technics__technic jquery"> jQuery</div>
     <div class="project-technics__technic html"> HTML</div>
-    <div class="project-technics__techni css"> CSS</div>
+    <div class="project-technics__technic css"> CSS</div>
     <div class="project-technics__technic responsive"> Responsiv</div>
  </div>
 </div> 

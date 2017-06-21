@@ -4,10 +4,10 @@ var technics = ["HTML5","CSS3","SQL","javaScript","jQuery","MySQL","PHP","SASS",
 
 $('document').ready(function() {
   
+
    //Hamburger meny, funkar ej
 	$('#i-nav').click(function(){
 
-		$(this).toggleClass('open');
 		$('ul').toggleClass('show');
 	});
 
@@ -20,7 +20,7 @@ $('document').ready(function() {
   $('.responsive').hide();
 	$('.mysql').hide();	*/
 
-	$('.project-technics__technic').animate({
+/*	$('.project-technics__technic').animate({
 		        	left: "+=12%",
 		        	top: "255px", 
 		      		
@@ -28,6 +28,6 @@ $('document').ready(function() {
    					$('.php').fadeIn();
    					$('.php').fadeOut(7000);
    				
-		    });
+		    });*/
  
 }); 
